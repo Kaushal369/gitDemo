@@ -3,8 +3,12 @@ package feature2;
 public class StringProgram1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+	String s = "HI Welcome World";
+	
+	int size = s.length();
+	
+	System.out.println("The length of given string is " + size);
 	}
 
 }
